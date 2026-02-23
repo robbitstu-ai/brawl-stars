@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brawl Stars Lite</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="hide-faces">
+    <main class="hud-wrap">
+      <header class="hud">
+        <div class="stat"><span>HP</span><strong id="hp">3200/3200</strong></div>
+        <div class="stat"><span>Ammo</span><strong id="ammo">3</strong></div>
+        <div class="stat"><span>Super</span><strong id="super">0%</strong></div>
+        <div class="stat"><span>Score</span><strong id="score">0</strong></div>
+      </header>
+
+      <section class="stage">
+        <canvas id="game" width="1100" height="620" aria-label="Arena"></canvas>
+        <div id="overlay" class="overlay">
+          <div class="menu">
+            <h1 class="logo">BRAWL STARS</h1>
+            <p class="logo-sub">Brawler tanlang va jangni boshlang</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
